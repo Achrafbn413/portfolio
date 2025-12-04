@@ -15,7 +15,7 @@ export default function Contact() {
     const formData = new FormData(e.target);
     
     try {
-      const response = await fetch("https://formsubmit.co/ajax/achrafbenchekroun@gmail.com", {
+      const response = await fetch("https://formsubmit.co/ajax/achrafbenchekroun0@gmail.com", {
         method: "POST",
         headers: {
           'Content-Type': 'application/json',
@@ -41,7 +41,7 @@ export default function Contact() {
       }
     } catch (error) {
       setStatus("error");
-      setErrorMsg("Le service est temporairement indisponible. Envoyez-moi un email directement à achrafbenchekroun@gmail.com");
+      setErrorMsg("Le service est temporairement indisponible. Envoyez-moi un email directement à achrafbenchekroun0@gmail.com");
     }
   };
 
@@ -168,7 +168,7 @@ export default function Contact() {
         <div className="mt-8 text-center text-gray-400 text-sm">
           <p>Vous pouvez aussi me contacter directement :</p>
           <a 
-            href="mailto:achrafbenchekroun@gmail.com" 
+            href="mailto:achrafbenchekroun0@gmail.com" 
             className="text-cyan-400 hover:text-cyan-300 transition font-medium"
           >
             achrafbenchekroun0@gmail.com
