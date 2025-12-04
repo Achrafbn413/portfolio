@@ -1,0 +1,16 @@
+/* Global styles */
+
+html, body {
+  scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-thumb {
+  background: #444;
+  border-radius: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #111;
+}
