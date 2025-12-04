@@ -171,7 +171,7 @@ export default function Contact() {
             href="mailto:achrafbenchekroun@gmail.com" 
             className="text-cyan-400 hover:text-cyan-300 transition font-medium"
           >
-            achrafbenchekroun@gmail.com
+            achrafbenchekroun0@gmail.com
           </a>
         </div>
       </section>
